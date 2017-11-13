@@ -1,0 +1,27 @@
+
+[{
+  	"cell_id": "1",
+  	"button": "3D Design and Prototyping",
+    "cat_sel": true
+  },
+  {
+    "cell_id": "2",
+    "button": "Electronic Design and Testing",
+    "cat_sel": false
+  },
+  {
+    "cell_id": "3",
+    "button": "Web and App Design",
+    "cat_sel": false
+  },
+  {
+    "cell_id": "4",
+    "button": "Control Systems",
+    "cat_sel": false
+  },
+  {
+    "cell_id": "5",
+    "button": "Embedded and IOT Programming",
+    "cat_sel": false
+  }
+ ]

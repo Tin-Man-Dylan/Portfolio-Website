@@ -1,0 +1,66 @@
+
+[  {
+    "cell_id": 1,
+    "title": "Side Project Website: Personal ",
+    "skills": "Languages(NodeJS, ExpressJS, ReactJS)",
+    "pic": "./images/personal/personal1.png",
+    "pic2": "./images/personal/personal2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "The website you should be seeing this on right now is this project. The code is available publicly on Github for anyone to look at. It is made with a ReactJS frontend and an ExpressJS backend. I made it with the intention of it being easy to quickly skim through, with the option to see extra info on what you choose.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 2,
+    "title": "Management System: Recycling Bins",
+    "skills": "Languages(MongoDB, ExpressJS, AngularJS, NodeJS) ",
+    "pic": "./images/revbin/bin1.png",
+    "pic2": "./images/revbin/bin2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "For my final year capstone at SFU, I was part of a team building sensor that would track weight and fill level in recycling beens to be used for textiles, and a management system to work along with it. This was build that recycles the materials as a business, this was needed so they could approximately get the value of the material they would be collecting and be able to pick up the bins more efficiently. I worked to build the bin management system using the MEAN stack, the current prototype can be seen at (revbin.ca)",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+    "cell_id": 3,
+    "title": "Product Interface: Security Keypad 1",
+    "skills": "Languages(NodeJS, ExpressJS, ReactJS, AngularJS) ",
+    "pic": "./images/keypad/WifiAP1-1.PNG",
+    "pic2": "./images/keypad/WifiAP3.PNG",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At Plasmatic Technologies, a company building a connected home security system and keypad, I built an app for the keypad to connect to the internet. This was using the process of setting the device as an Access Point then connecting inputting the info and flipping it to connect. To build the app I found an existing application except with an ExpressJS backend and AngularJS frontend. Since all of our apps were ReactJS, I learned enough AngularJS to then rebuild the frontend in ReactJS, also modifications were made to the backend to eliminate existing bugs and improve it.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  },
+  {
+    "cell_id": 4,
+    "title": "Product Interface: Security Keypad 2",
+    "skills": "Languages(NodeJS, ExpressJS, ReactJS) ",
+    "pic": "./images/keypad/KeypadZones2.PNG",
+    "pic2": "./images/keypad/KeypadZones2Big.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At Plasmatic Technologies, a company building a connected home security system and keypad, I had to make interfaces to run on the keypad's LCD screen. For this I used ReactJS and built a keypad inteface as well as status indicators for the current state of the system and its sensors. This also included buttons which could automatically arm and disarm the system to make it more user friendly. This all worked with an ExpressJS backend which would send and recieve messages with Axios and Socket.io, and communicate with other programs to send information to AWS and the MCU. ",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 5,
+    "title": "Side Project Website: Maker Cube Business ",
+    "skills": "Languages(HTML, CSS[Bootstrap Template])",
+    "pic": "./images/makercube/mc1.png",
+    "pic2": "./images/makercube/mc2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "While I was still a student at SFU I started a non-profit in Surrey, BC, this was called Maker Cube(makercube.ca) and was Surrey's first makerspace. The current website has been changed from what I made as we decided to go for a simpler approach. The website was made on a Bootstrap template with many modifications and included embedded components and several pages of information.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  }]

@@ -1,0 +1,110 @@
+
+[{
+    "cell_id": 1,
+    "title": "Test Device: Power Supply Cycling",
+    "skills": "Parts(Cycle Relay, Enclosure, LED, Displays), Schematic(Altium) ",
+    "pic": "./images/corvus/cycle1.png",
+    "pic2": "./images/corvus/cycle4.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At Corvus Energy, a company that specilizes in batttery management systems for large industrial and transportation purposes, I worked mainly doing testing. My main task was to build a system to cycle power supplies that convert up to 1024V to 24V and 12V, and to run burn-in and HASS tests on them. This included using a variable transformer with a rectifier, cycle relays to cycle resistive loads, voltage and load inidcators and using parts to create an easy to use enclosure",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 2,
+    "title": "Test Device: Battery Testing",
+    "skills": "Testing(Thermocouples and Heat Cameras, Wave Generators, Etc.) ",
+    "pic": "./images/corvus/heat.png",
+    "pic2": "./images/corvus/wave.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At Corvus Energy, a company that specilizes in batttery management systems for large industrial and transportation purposes, I worked mainly doing testing. This included things like temperature testing for lithium-ion battery cells and checking the balance of duty cycle vs. voltage, short circuit tests, assembling and using a high voltage waveform generator to do ripple tests.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+    "cell_id": 3,
+    "title": "Product Circuit: Scent Diffuser",
+    "skills": "Device(ESP8266 MCU), Program(C, HTML) Parts(Atomizer, LED)",
+    "pic": "./images/ora/colpitts.png",
+    "pic2": "./images/ora/esp.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "While a student at Simon Fraser University I worked with a student startup to create a prototype for a app controller scent diffuser. I used and ESP8266 as the controller which could connect to the internet to control vairous components. The electonics included WS2812 RGB LEDs, and for the diffusion I originally designed a Colpitts Oscillator to drive the piezo, but later decided an off the self circuit was chosen and integfrated with our circuit. ",
+    "visible": true,
+    "open": false,
+    "position": 3
+  }
+   ,
+  {
+    "cell_id": 4,
+    "title": "Product Circuit: Security Keypad(PCB)",
+    "skills": "PCB(KiCAD[SMT,THT Capacitive Touch Buttons])  ",
+    "pic": "./images/keypad/pcb1.PNG",
+    "pic2": "./images/keypad/pcb2.PNG",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "During my time working for a new company called Plasmatic Technologies Inc.; a company that is making an internet connected home security system, I designed versions of our PCB. To use as the keypad buttons I built capacitive touch buttons and a capacitive proximity sensor. This also inlcluded surface mount components such as the ICs, discrete components, and RGB LEDS, also through hole parts and cuts for back mounted LEDS, and probe points.  ",
+    "visible": true,
+    "open": false,
+    "position": 1
+  }
+  ,
+  {
+    "cell_id": 5,
+    "title": "Product Circuit: Security Keypad(MCU)",
+    "skills": "Devices(TI MCU), Parts(Capacitive Touch PCB, Security Systems)  ",
+    "pic": "./images/keypad/captouch1.png",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "During my time working for a new company called Plasmatic Technologies Inc.; a company that is making an internet connected home security system. In order to work with our keypad that uses capacitive touch we used a TI MCU specifically for baing able to detect it. Other electronic connections necessary were for data communication, such as UART to the MPU and data from existing security systems which included voltage conversion down to 3.3V.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  }
+  ,
+  {
+    "cell_id": 6,
+    "title": "Product Circuit: Security Keypad(MPU Components)",
+    "skills": "Devices(Linux Debian MPU), Parts(LED(POV), LCD, Speaker) ",
+    "pic": "./images/keypad/led1.jpg",
+    "pic2": "./images/keypad/lcd1.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "During my time working for a new company called Plasmatic Technologies Inc.; a company that is making an internet connected home security system, I worked with various components that were controlled by our MPU such as RGB LEDs using a charlieplexing and POV circuits to minimize pins used. Speakers using I2S, and an LCD screen which used SPi for data and I2C for the capacitive touch screen.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  }
+ ,
+  {
+    "cell_id": 7,
+    "title": "Side Project: Automatic Scoreboard",
+    "skills": "Device(Arduino MCU), Parts(LED(POV), IR) ",
+    "pic": "./images/score/scoreboard.png",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As a side project I decided to build a table top hockey game, for this I wanted an automated scoreboard and clock. I used 2 1-digit for the goals and a 4-digit 7-segment display for the time. Since this required a pin for each of the 7 segments and a pin for each of the 6 digits a shift register was used to have enough. A button was used to reset the timer and small IR interupt sensors to detect a goal.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 8,
+    "title": "Side Project: Controllable and PID Pulley",
+    "skills": "Device(TI MCU), Parts(Motor Control[PWM, PID], IR Buttons)",
+    "pic": "./images/no-photo.png",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "For an SFU Course using MCUs I chose to do a custom project, rather than a set project like the rest of the students. For this I made a pulley project in which I sourced the parts, such as a high torque motor, high current motor contoller, buttons, and IR sensors for end stops. It was programmed to be directional and speed controlled(PWM), and a PID to automatically find the middle.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  }
+]

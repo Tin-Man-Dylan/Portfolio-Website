@@ -1,0 +1,80 @@
+
+[{
+  	"cell_id": 1,
+  	"title": "Industrial Control: Fibre Optics(PLC)",
+    "skills": "Program(Ladder Logic[Siemens Simatic Step 7])",
+    "pic": "./images/fibre/plc1.png",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At my work in Wuhan, China at a company called Yangtze Fibre Optics and Cable Co. I worked on a PLC and HMI for a machine that was used for moving damaged fibre optic strings from a good spool to one where it could be easily removed. For the PLC this meant using inputs such as detecting the tension between the spools and HMI inputs in the PLC, and outputting to control motor speed linear alignment actuators and more. This was all programmed in ladded logic in Siemens Simatic Step 7",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 2,
+    "title": "Industrial Control: Fibre Optics(HMI) ",
+    "skills": "Program(HMI[Siemens Simatic WinCC])",
+    "pic": "./images/fibre/hmi1.png",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At my work in Wuhan, China at a company called Yangtze Fibre Optics and Cable Co. I worked on a PLC and HMI for a machine that was used for moving damaged fibre optic strings from a good spool to one where it could be easily removed. The HMI(Human Machine Interface) included visualizations of current inputs such as speed from encoders, and what is activated. It also included the ability to easily change many of the operating parameters. The HMI was built completely in Siemens Simatic WinCC",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+    "cell_id": 3,
+    "title": "System Design: Seimens Certification",
+    "skills": "Systems(Mechanical, Electrical, Pneumatic, Hydraulic)",
+    "pic": "./images/siemens/pneum1.png",
+    "pic2": "./images/siemens/motor1.jpg",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "During the Siemens Level 1 certification course we had the opportunity to build various systems, this included using Festo components to build electro-pneumatic systems, pure electrical systems, and disassembling car components such as transmission and brakes. We also analyzed and manipulated hydraulic systems, as well as a Siemens PLC controlled small assembly line.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  },
+  {
+    "cell_id": 4,
+    "title": "System Analysis and Simulation: Seimens Certification",
+    "skills": "Software(FluidSIM, AutoCAD, Troubleshooting), Flow Diagrams, Function Charts",
+    "pic": "./images/siemens/fluidsim.png",
+    "pic2": "./images/siemens/fluidsim2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "During the Siemens Level 1 certification course we worked with various systems, we used Festo's FluidSIM to simulate both hydraulic and pneumatic systems, and Siemens Troubleshooting simulator for a full system. We also analyzed the Siemens small assembly line use flow diagrams, sequential function charts, and also did physical troubleshooting on the system",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 5,
+    "title": "Industrial Control: LogixPro Simulation",
+    "skills": "Program(Ladder Logic[LogixPro-500])",
+    "pic": "./images/logixpro/plc1.JPG",
+    "pic2": "./images/logixpro/plc2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At SFU I took a course called Industrial Controls, this course had us use simulated PLC systems in LogixPro. I completed both 2 person projects on my own. The 2nd project had us to more advanced controls by having us implement a PID to control the pressure of a simulated pump, we used methods such as Ziegler–Nichols to tune it.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+    "cell_id": 6,
+    "title": "System Control: Widget Builder",
+    "skills": "Program(LabView)",
+    "pic": "./images/labview/labview1.png",
+    "pic2": "./images/labview/labview2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "At SFU for a course on sensors and actuators our main lab project was to program a small widget assembly line system using LabView. I completed this 2 person project on my own. It had us use queues, conditional statements, and various other logic, along with this input and output were on a GUI that was made along with it. Data was also output to a CSV file as it was generated.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  }
+]

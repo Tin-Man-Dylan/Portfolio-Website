@@ -1,6 +1,32 @@
 
 [{
-  	"cell_id": 1,
+    "cell_id": 1,
+    "title": "PCB 3D: Altium Design's 3D View/Assembly",
+    "skills": "3D CAD (Solidworks), Altium PDB Designer, STEP Files",
+    "pic": "./images/notifai/3d/sim3d.PNG",
+    "pic2": "./images/notifai/3d/tvoc3d.PNG",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, For many of our PCB designs we needed a 3D model of the full board to help decide on casing design. For some of the models I had to fully design using the specs on the datasheets(see some in images). For other 3D models of components, they are available online or from the manufacturer, but some weren't exact to the model or specification. I used solidworks to make necessary design, placement, and colour changes.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+    {
+    "cell_id": 2,
+    "title": "Test Jig: 3D Printed Mounts",
+    "skills": "3D CAD (Solidworks), Cura Slicer, 3D Printing ",
+    "pic": "./images/notifai/3d/jig3d.jpg",
+    "pic2": "./images/notifai/3d/jig3d2.PNG",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, some of the laser cut jigs I had produced required more specialized pieces for mounting parts of it. I used Solidworks to make these designs to fit perfectly as needed. This included mounting a camera, antennas, laser pointers, Pi casing, and more.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+  	"cell_id": 3,
   	"title": "Branded Designs: City of Surrey",
     "skills": "3D CAD (Solidworks, Sketchup, Blender) ",
     "pic": "./images/cityofsurrey/CityHallwLogo.JPG",
@@ -10,10 +36,10 @@
     "description": "These designs and a few others were done for the at the request of a City of Surrey (BC) employee to be used as giveaway items. To create these it included using a few different programs to make all the needed designs. The model of the building with the city's logo was done with Sketchup as they had an existing builfing model and words needed do be added. Blender was used to add the logo to an existing gimble design, and the cup shown and another were made custom using Solidworks. The logo was converted from Adobe Illustrator, into the respective modelling software",
     "visible": true,
     "open": false,
-    "position": 1
+    "position": 3
   },
   {
-    "cell_id": 2,
+    "cell_id": 4,
     "title": "Product Design: Scent Diffuser",
     "skills": "3D CAD (Solidworks) ",
     "pic": "./images/ora/ora2.JPG",
@@ -23,10 +49,10 @@
     "description": "While a student at Simon Fraser University I worked with a student startup to create prototype designs for a app controller scent diffuser. The designs were made to meet a specified artistic design of how it should look along with still making it so functional pieces could fit in it. Solidworks was used for all of the designs and renders of it, a 3D printed version it was used for proof of concept. ",
     "visible": true,
     "open": false,
-    "position": 2
+    "position": 1
   },
   {
-    "cell_id": 3,
+    "cell_id": 5,
     "title": "Product Design: Security Keypad",
     "skills": "3D CAD (Solidworks), Adobe Illustrator ",
     "pic": "./images/keypad/keypad1.jpg",
@@ -36,10 +62,10 @@
     "description": "During my time working for a new company called Plasmatic Technologies Inc.; a company that is making an internet connected home security system I designed some models for their internet connect keypad. These included both a 3D printed version, and then one to simulate what the final version would look like. The final version one used a high quality painted 3D print for the shell and 2 layers of laser cut acrylic to simulate the front. The logo was converted from Adobe Illustrator format to vector, and then imported into Solidworks",
     "visible": true,
     "open": false,
-    "position": 3
+    "position": 2
   },
   {
-    "cell_id": 4,
+    "cell_id": 6,
     "title": "Machine Design: Fibre Optics",
     "skills": "3D CAD (Solidworks) ",
     "pic": "./images/fibre/fibre2.png",
@@ -49,10 +75,10 @@
     "description": "At my work in Wuhan, China at a company called Yangtze Fibre Optics and Cable Co. I worked on a machine that was used for moving damaged fibre optic strings from a good spool to one where it could be easily removed. Aside from programming the PLC I made some concept designs that I felt could improve the existing machine for the purpose it was being used for. This was a clamp to catch the fibres when they reached the break when being unspooled to prevent it from whipping around.",
     "visible": true,
     "open": false,
-    "position": 1
+    "position": 3
   },
   {
-    "cell_id": 5,
+    "cell_id": 7,
     "title": "Side Project: Name Placard",
     "skills": "3D CAD (Solidworks) ",
     "pic": "./images/placard/placard1.png",
@@ -62,10 +88,10 @@
     "description": "As someone who served as VP and President of the Engineering Students Society at SFU, I often represented the school at conferences which including general meetings with voting. At these meeting we had name placards, so I custom designed and printed one for us it to be used to help our school stand out. ",
     "visible": true,
     "open": false,
-    "position": 2
+    "position": 1
   },
   {
-    "cell_id": 6,
+    "cell_id": 8,
     "title": "Side Project: Snowman Lantern",
     "skills": "3D CAD (Solidworks) ",
     "pic": "./images/snow/Step 15.JPG",
@@ -75,10 +101,10 @@
     "description": "To be used in an Instructable contest I made a guide on how to make a pumpkin snowman and also create something that looked like it in Solidworks. This project was just done for fun, and to improve my Solidworks skills.",
     "visible": true,
     "open": false,
-    "position": 3
+    "position": 2
   },
   {
-    "cell_id": 7,
+    "cell_id": 9,
     "title": "Side Project: Robot Mascot",
     "skills": "3D CAD (Solidworks) ",
     "pic": "./images/robot/robot2.png",
@@ -88,10 +114,10 @@
     "description": "As someone who served as VP and President of the Engineering Students Society at SFU, I felt it would be great to have a mascot that represented us and was also useful. I designed this concept of a robot that could follow people around and also had a fridge on the outside that could bring students drinks and snacks.",
     "visible": true,
     "open": false,
-    "position": 1
+    "position": 3
   },
   {
-    "cell_id": 8,
+    "cell_id": 10,
     "title": "Branded Design: Science World",
     "skills": "3D CAD (Solidworks), Adobe Illustrator ",
     "pic": "./images/science/sw1.png",
@@ -101,6 +127,6 @@
     "description": "This design was done for the at the request of a Science World at Telus World of Science employee to be used as giveaway items. The logo was converted from Adobe Illustrator format to vector, and then imported into Solidworks where it was made into a 3D version of the logo.",
     "visible": true,
     "open": false,
-    "position": 2
+    "position": 1
   }
 ]

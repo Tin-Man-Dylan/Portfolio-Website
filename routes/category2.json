@@ -1,32 +1,62 @@
 
 [{
     "cell_id": 1,
-    "title": "Test Device: Power Supply Cycling",
-    "skills": "Parts(Cycle Relay, Enclosure, LED, Displays), Schematic(Altium) ",
-    "pic": "./images/corvus/cycle1.png",
-    "pic2": "./images/corvus/cycle4.png",
+    "title": "Product Circuit: Controllable Pipe Valve",
+    "skills": "ESP32, Arduino IDE, Motor Controller, LCD Display  ",
+    "pic": "./images/notifai/electronics/valve1.jpg",
+    "pic2": "./images/notifai/electronics/valve2.jpg",
     "pic3": "./images/cityofsurrey/Large Mug.JPG",
     "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
-    "description": "At Corvus Energy, a company that specilizes in batttery management systems for large industrial and transportation purposes, I worked mainly doing testing. My main task was to build a system to cycle power supplies that convert up to 1024V to 24V and 12V, and to run burn-in and HASS tests on them. This included using a variable transformer with a rectifier, cycle relays to cycle resistive loads, voltage and load inidcators and using parts to create an easy to use enclosure",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I assembled a prototype of a valve opening system. This used design incorporated a new TI low power motor controller, with current sensing. I used an ESP32 and a simple GPIO controller app for it to demo opening and closing the valve over wifi. A simple looping program was also made test how many open and closes could be made on a battery, results were displayed on an LCD.",
     "visible": true,
     "open": false,
     "position": 1
-  },
+  }
+  ,
   {
     "cell_id": 2,
-    "title": "Test Device: Battery Testing",
-    "skills": "Testing(Thermocouples and Heat Cameras, Wave Generators, Etc.) ",
-    "pic": "./images/corvus/heat.png",
-    "pic2": "./images/corvus/wave.png",
+    "title": "Product Circuit: STM8S RGB LED and Button Board(PCB)",
+    "skills": "PCB(Altium), IAR IDE, Buttons, LED, UART",
+    "pic": "./images/notifai/electronics/ledboard1.PNG",
+    "pic2": "./images/notifai/electronics/ledboard2.jpg",
     "pic3": "./images/cityofsurrey/Large Mug.JPG",
     "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
-    "description": "At Corvus Energy, a company that specilizes in batttery management systems for large industrial and transportation purposes, I worked mainly doing testing. This included things like temperature testing for lithium-ion battery cells and checking the balance of duty cycle vs. voltage, short circuit tests, assembling and using a high voltage waveform generator to do ripple tests.",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I made an addition for our LoRa Gateway we needed a button and indicator lighting. The best option was to make a seperate PCB board for it that communicates to the gateway over UART. For this I did the full design in Altium PCB Design software, and had hundreds of them manufactured.",
     "visible": true,
     "open": false,
     "position": 2
-  },
+  }
+  ,
   {
     "cell_id": 3,
+    "title": "Product Circuit: Pi Pico Enviroment and Air Quality Device",
+    "skills": "Parts(CO2, PM, TVOC, Temp., Humidity, E-Paper, Neopixels, LoRa Module), Comms(UART, i2c, SPI)",
+    "pic": "./images/notifai/electronics/aqpico1.jpg",
+    "pic2": "./images/notifai/electronics/aqpico2.jpg",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I made a protoype of our upcoming Pi Pico based air quality and enviromaental device that included many modules (PM, CO2, TVOC, temperature, humidity, e-paper, neopixels,  and LoRa module) for comms (UART, SPI and i2c). All of these components required being able to hotplug into the main board, and then display and send data.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  }
+   ,
+  {
+    "cell_id": 4,
+    "title": "Demo Circuit: E-Paper with Raspberry Pi",
+    "skills": "GooDisplay/Waveshare E-Paper, Batter Pack, Raspberry Pi, Python",
+    "pic": "./images/notifai/electronics/epaper2.jpg",
+    "pic2": "./images/notifai/electronics/epaper1.jpg",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I made as a demo of our upcoming Pi Pico product I used a Raspberry Pi 3B+ to easily show data on an e-paper screen. To make it more realistic I used a GraphQL library to pull our live data of other devices from a out GraphQL Server. The a small battery pack was used to make the device wireless.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  }
+ ,
+ {
+    "cell_id": 5,
     "title": "Product Circuit: Scent Diffuser",
     "skills": "Device(ESP8266 MCU), Program(C, HTML) Parts(Atomizer, LED)",
     "pic": "./images/ora/colpitts.png",
@@ -40,7 +70,7 @@
   }
    ,
   {
-    "cell_id": 4,
+    "cell_id": 6,
     "title": "Product Circuit: Security Keypad(PCB)",
     "skills": "PCB(KiCAD[SMT,THT Capacitive Touch Buttons])  ",
     "pic": "./images/keypad/pcb1.PNG",
@@ -54,7 +84,7 @@
   }
   ,
   {
-    "cell_id": 5,
+    "cell_id": 7,
     "title": "Product Circuit: Security Keypad(MCU)",
     "skills": "Devices(TI MCU), Parts(Capacitive Touch PCB, Security Systems)  ",
     "pic": "./images/keypad/captouch1.png",
@@ -68,7 +98,7 @@
   }
   ,
   {
-    "cell_id": 6,
+    "cell_id": 8,
     "title": "Product Circuit: Security Keypad(MPU Components)",
     "skills": "Devices(Linux Debian MPU), Parts(LED(POV), LCD, Speaker) ",
     "pic": "./images/keypad/led1.jpg",
@@ -82,7 +112,7 @@
   }
  ,
   {
-    "cell_id": 7,
+    "cell_id": 9,
     "title": "Side Project: Automatic Scoreboard",
     "skills": "Device(Arduino MCU), Parts(LED(POV), IR) ",
     "pic": "./images/score/scoreboard.png",
@@ -95,7 +125,7 @@
     "position": 1
   },
   {
-    "cell_id": 8,
+    "cell_id": 10,
     "title": "Side Project: Controllable and PID Pulley",
     "skills": "Device(TI MCU), Parts(Motor Control[PWM, PID], IR Buttons)",
     "pic": "./images/no-photo.png",

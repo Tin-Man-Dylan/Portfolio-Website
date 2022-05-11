@@ -28,6 +28,14 @@ router.post('/', function(req, res, next) {
                     res.sendFile(__dirname+'/category5.json');
                     console.log("e");
                     break;
+              case '6':
+                    res.sendFile(__dirname+'/category6.json');
+                    console.log("f");
+                    break;
+              case '7':
+                    res.sendFile(__dirname+'/category7.json');
+                    console.log("g");
+                    break;
            	default:
            		console.log("This button has not yet been defined");
                }

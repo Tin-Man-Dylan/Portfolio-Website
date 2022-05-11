@@ -1,0 +1,56 @@
+
+[
+ {
+    "cell_id": 1,
+    "title": "Manufacturing/Debugging: STM32 Air Quality Devices",
+    "skills": "Debugging C Code, YAML files",
+    "pic": "./images/notifai/other/provision1.jpg",
+    "pic2": "./images/notifai/other/provision2.jpg",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I did the manufacturing during early stage and small production runs I used a flashing jig I built with our flashing software to put firmware on our STM32 based devices. This often required debugging whenever an issue arrised and assisting in finding a solution to it. This was for over 1000 devices.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  },
+  {
+    "cell_id": 2,
+    "title": "Manufacturing/Debugging: RisingHF Gateways",
+    "skills": "Debugging, YAML files",
+    "pic": "./images/notifai/other/rhf.jpg",
+    "pic2": "./images/no-photo.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I would prepare our gateways as we had our own firmware for RisingHF LoRa Gateways, I would SSH into them to put the needed firmware on them. I would then check for any bugs and assist in find a solution to it when needed. This experience helped me later making firmware for our own LoRa Basics Station Gateway.",
+    "visible": true,
+    "open": false,
+    "position": 2
+  },
+  {
+    "cell_id": 3,
+    "title": "Translations English/Chinese: Tech Docs, Sourcing at HQB Market",
+    "skills": "Translation: Technical and Non-Technical Documents, In-person",
+    "pic": "./images/notifai/other/translation2.jpg",
+    "pic2": "./images/notifai/other/translation1.PNG",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I did Chinese to English translation as many of our components were from Chinese manufacturers some documents required reading technical info only availble in Chinese. With my advanced Chinese skills I can do this well. Furthermore we would often go to Huaqiang Bei the worlds largest electronics market to quickly seek out new components. Here Chinese is necessary for efficient and quality sourcing.",
+    "visible": true,
+    "open": false,
+    "position": 3
+  },
+  {
+    "cell_id": 4,
+    "title": "Remote Access: Gateways and Routers",
+    "skills": "Dataplicity and AstroRelay Software, Linux",
+    "pic": "./images/notifai/other/remote1.png",
+    "pic2": "./images/notifai/other/remote2.png",
+    "pic3": "./images/cityofsurrey/Large Mug.JPG",
+    "pic4": "./images/cityofsurrey/Surrey Coin.JPG",
+    "description": "As an engineer at Notifai; a company making enterprise enviromental and air quality sensing solutions, I used remote access systems to access our LoRa Gateways. As to work with our LoRa based air quality devices we used RisingHF Gateways as well as developed our own. However sometimes they needed to be communicated with for maintenance by us. To allow this to be possible we used remote SSH, first with a  wireless router. Later we incorporated it directly on the gateways. This included AstroRelay and Dataplicity software.",
+    "visible": true,
+    "open": false,
+    "position": 1
+  }
+    
+]
